@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" href="form booking.html">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.instagram.com/">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Website Hotel Bersejarah | Coloradigraph Hotel</title>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <div class="nav__bar">
+                <div class="logo">
+                    <a href="#"><img src="foto hotel/logo coloradigraph.jpg" alt="logo"></a>
+                </div>
+                <div class="nav__menu__btn" id="menu-btn">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+            <ul class="nav__links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#room">Room</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#explore">Explore</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="btn nav__btn" onclick="window.location.href='form booking.html'">Book Now</button>
+        </nav>
+        <div class="section__container header__container" id="home">
+            <p>Comfort - Extended Stay - Luxuriate</p>
+            <h1>The best Stay Experience<br />At Our<span> Hotel</span>.</h1>
+        </div>
+    </header>
+    <section class="section__container booking__container">
+        <form action="form booking.html" class="booking__form">
+            <div class="input__group">
+                <span><i class="ri-calendar-2-fill"></i></span>
+                <div>
+                    <label for="check-in">CHECK-IN</label>
+                    <input type="text" placeholder="Check In"/>
+                </div>
+            </div>
+            <div class="input__group">
+                <span><i class="ri-calendar-2-fill"></i></span>
+                <div>
+                    <label for="check-out">CHECK-OUT</label>
+                    <input type="text" placeholder="Check Out"/>
+                </div>
+            </div>
+            <div class="input__group">
+                <span><i class="ri-user-fill"></i></span>
+                <div>
+                    <label for="guest">GUEST</label>
+                    <input type="text" placeholder="Guest"/>
+                </div>
+            </div>
+            <div class="input__group input__btn">
+                <button class="btn">CHECK OUT</button>
+            </div>
+        </form>
+    </section>
+    
+    <section class="section__container about__container" id="about">
+        <div class="about__image">
+            <img src="foto hotel/hotel lama.jpg" alt="about"/>
+        </div>
+        <div class="about__content">
+            <p class="section__subheader">ABOUT US</p>
+            <h2 class="section__header">Coloradigraph Hotel Since 1978!</h2>
+            <p class="section__description">
+                Coloradigraph hotel was founded in the early 78s. The founder Sir. Vigo deliberately designed the Coloradigraph Hotel to accommodate the various antique collections he owned. The concept also highlights Javanese art and romance.
+            </p>
+            <div class="about__btn">
+                <button class="btn" onclick="window.location.href='read more.html'">Read More</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__container room__container" id="room">
+        <p class="section__subheader">OUR LIVING ROOM</p>
+        <h2 class="section__header">Get luxurious facilities for you who want to stay at this super comfy hotel. Book a room now before it runs out!"</h2>
+        <div class="room__grid">
+            <div class="room__card">
+                <div class="room__card__image">
+                    <img src="foto hotel/kamar hotel.jpg" alt="room">
+                    <div class="room__card__icons">
+                        <span><i class="ri-heart-fill"></i></span>
+                        <span><i class="ri-paint-fill"></i></span>
+                        <span><i class="ri-shield-star-fill"></i></span>
+                    </div>
+                </div>
+                <div class="room__card__details">
+                    <h4>Deluxe Longue Room</h4>
+                    <p>The hotel's strategic location is close to the city center, gym, schools, tourist attractions and many others. Presents a calm atmosphere with views of the city lights of Malang</p>
+                    <h5>Starting from <span>$75/night</span></h5>
+                    <button class="btn" onclick="window.location.href='form booking.html'">Book Now</button>
+                </div>
+            </div>
+            <div class="room__card">
+                <div class="room__card__image">
+                    <img src="foto hotel/room2.jpeg" alt="room">
+                    <div class="room__card__icons">
+                        <span><i class="ri-heart-fill"></i></span>
+                        <span><i class="ri-paint-fill"></i></span>
+                        <span><i class="ri-shield-star-fill"></i></span>
+                    </div>
+                </div>
+                <div class="room__card__details">
+                    <h4>Executive Cityscape Room</h4>
+                    <p>Located near at a farm which is famous for its apples and coolness, this resort stands firmly on the top of a hill, complete with beautiful views all around, with the bonus of beautiful views of mountains covered in mist at sunrise.</p>
+                    <h5>Starting from <span>$65/night</span></h5>
+                    <button class="btn" onclick="window.location.href='form booking.html'">Book Now</button>
+                </div>
+            </div>
+            <div class="room__card">
+                <div class="room__card__image">
+                    <img src="foto hotel/room3.jpeg" alt="room">
+                    <div class="room__card__icons">
+                        <span><i class="ri-heart-fill"></i></span>
+                        <span><i class="ri-paint-fill"></i></span>
+                        <span><i class="ri-shield-star-fill"></i></span>
+                    </div>
+                </div>
+                <div class="room__card__details">
+                    <h4>Standard Classic Room</h4>
+                    <p>From the balcony, you can enjoy views of the plantation landscape and green rice fields. The swimming pool facilities here are quite pleasant. You can swim with a really cool view of the mountains.</p>
+                    <h5>Starting from <span>$50/night</span></h5>
+                    <button class="btn" onclick="window.location.href='form booking.html'">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="service" id="service">
+        <div class="section__container service__container">
+            <div class="service__content">
+                <p class="section__subheader">SERVICES</p>
+                <h2 class="section__header">Strive Only For The Best.</h2>
+                <ul class="service__list">
+                    <li>
+                        <span><i class="ri-shield-star-fill"></i></span>
+                        High Class Security
+                    </li>
+                    <li>
+                        <span><i class="ri-24-hours-line"></i></span>
+                        24 Hours Room Service
+                    </li>
+                    <li>
+                        <span><i class="ri-headphone-line"></i></span>
+                        Conference Room
+                    </li>
+                    <li>
+                        <span><i class="ri-map-2-line"></i></i></span>
+                        Tourist Guide Support
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__container banner__container">
+        <div class="banner__content">
+            <div class="banner__card">
+                <h4>27+</h4>
+                <p>Properties Available</p>
+            </div>
+            <div class="banner__card">
+                <h4>1520+</h4>
+                <p>Bookings Completed</p>
+            </div>
+            <div class="banner__card">
+                <h4>1496+</h4>
+                <p>Happy Customers</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore" id="explore">
+        <p class="section__subheader">EXPLORE</p>
+        <h2 class="section__header">What's New Today.</h2>
+        <div class="explore__bg">
+            <div class="explore__content">
+                <p class="section__description">26th January 2024</p>
+                <h4>A New Menu Is Available In Our Hotel</h4>
+                <button class="btn">Continue</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <div class="section__container footer__container">
+            <div class="footer__col">
+                <div class="logo">
+                    <a href="#home"><img src="foto hotel/logo coloradigraph.jpg" alt="logo"></a>
+                </div>
+                <p class="section__description">
+                    Discover a world of comfort, luxury, and adventure as you explore
+                    our curated selection of hotels, making every moment of your getaway
+                    truly extraordinary.
+                </p>
+                <button class="btn" onclick="window.location.href='form booking.html'">Book Now</button>
+            </div>
+            <div class="footer__col">
+              <h4>QUICK LINKS</h4>
+              <ul class="footer__links">
+                <li><a href="#room">Browse Destinations</a></li>
+                <li><a href="#room">Special Offers & Packages</a></li>
+                <li><a href="#room">Room Types & Amenities</a></li>
+              </ul>
+            </div>
+            <div class="footer__col">
+                <h4>OUR SERVICES</h4>
+                <ul class="footer__links">
+                  <li><a href="#service">Concierge Assitance</a></li>
+                  <li><a href="#service">Flexible Booking Option</a></li>
+                  <li><a href="#service">Wellness & Recreation</a></li>
+                </ul>
+              </div>
+            <div class="footer__col">
+                <h4>CONTACT US</h4>
+                <ul class="footer__links">
+                  <li><a href="#contact">coloradigraphhotel@info.com</a></li>
+                </ul>
+                <div class="footer__socials">
+                  <a href="https://www.facebook.com/Coloradigraph Adv"><img src="foto hotel/facebook.png" alt="facebook" /></a>
+                  <a href="https://www.instagram.com/coloradigraph"><img src="foto hotel/instagram.png" alt="instagram" /></a>
+                  <a href="https://www.youtube.com/channel/UCKKvQ7Rb2-G5sDYiXaGyYMw"><img src="foto hotel/youtube.png" alt="youtube" /></a>
+                  <a href="https://www.twitter.com/coloradigraph"><img src="foto hotel/twitter.png" alt="twitter" /></a>
+                </div>
+              </div>
+            </div>
+            <div class="footer__bar">
+                Copyright © 2023 Web Design Mastery. All rights reserved.
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
